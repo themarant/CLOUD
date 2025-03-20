@@ -6,7 +6,7 @@
 C:\Users\jerem>az vm create -g Léo -n PCPortableTP2 --image Ubuntu2204 --admin-username marant --ssh-key-values ~/.ssh/id_rsa.pub
 {
   "fqdns": "",
-  "id": "/subscriptions/*/resourceGroups/Léo/providers/Microsoft.Compute/virtualMachines/PCPortableTP2",
+  "id": "/subscriptions/5c029a8e-2178-45ca-b23c-9cda6a79d3f1/resourceGroups/Léo/providers/Microsoft.Compute/virtualMachines/PCPortableTP2",
   "location": "centralindia",
   "macAddress": "7C-1E-52-3C-AF-0C",
   "powerState": "VM running",
@@ -55,6 +55,8 @@ PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
 64 bytes from 10.0.0.5: icmp_seq=2 ttl=64 time=0.948 ms
 64 bytes from 10.0.0.5: icmp_seq=3 ttl=64 time=0.963 ms
 ~~~
+
+![alt text](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXJ3MWp6ZHVjbG9sd2JxYnA1OGpvZWl1emtxeWE1MnR0eTY5Z2pqbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IwTWTsUzmIicM/giphy.gif)
 ## Part II : cloud-init
 ### 1. Intro
 ### 2. Gooooo
@@ -138,7 +140,7 @@ tp2magueule-resources  westeurope    Succeeded
 ~~~
 provider "azurerm" {
   features {}
-  subscription_id = "*"
+  subscription_id = "5c029a8e-2178-45ca-b23c-9cda6a79d3f1"
 }
 
 resource "azurerm_resource_group" "main" {
