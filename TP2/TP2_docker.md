@@ -286,7 +286,7 @@ azureuser@tp2maface-node2:~$
 🌞 Intégrer la gestion de cloud-init
 ~~~
 
-
+~~~
 
 
 ![alt text](https://media1.tenor.com/m/3wJqEkHwcdwAAAAd/oui-mais.gif)
