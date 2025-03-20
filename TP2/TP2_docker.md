@@ -280,4 +280,13 @@ The authenticity of host '10.0.2.5 (<no hostip for proxy command>)' can't be est
 azureuser@tp2maface-node2:~$
 ~~~
 ### 4. cloud-iniiiiiiiiiiiiit
+#### A. Un premier tf + cloud-init
+[Voir le fichier](https://github.com/themarant/CLOUD/tree/main/TP2/Partie4/PartieA)
+
+🌞 Intégrer la gestion de cloud-init
+~~~
+
+
+
+
 ![alt text](https://media1.tenor.com/m/3wJqEkHwcdwAAAAd/oui-mais.gif)
