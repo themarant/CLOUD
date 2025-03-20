@@ -281,12 +281,31 @@ azureuser@tp2maface-node2:~$
 ~~~
 ### 4. cloud-iniiiiiiiiiiiiit
 #### A. Un premier tf + cloud-init
+- redirection fichier
 [Voir le fichier](https://github.com/themarant/CLOUD/tree/main/TP2/Partie4/PartieA)
 
 🌞 Intégrer la gestion de cloud-init
 ~~~
-
+marant@tp2magueule-vm:~$ docker info
+Client:
+ Version:    26.1.3
+ Context:    default
+ Debug Mode: false
 ~~~
+🌞 Proof !
+~~~
+ssh marant@20.160.75.24
+~~~
+#### B. Go further
+🌞 Moar cloud-init and Terraform configuration
+- redirection fichier conf
+[Voir le fichier](https://github.com/themarant/CLOUD/tree/main/TP2/Partie4/PartieB)
 
-
+🌞 Proof !
+~~~
+curl http://51.137.47.116:10101
+<!DOCTYPE html><html><head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="UTF-8"><meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1, maximum-scale=5"><meta name="theme-color" content="#1976d2"><meta name="msapplication-TileColor" content="#1976d2"><meta name="msapplication-TileImage" content="/_assets/favicons/mstile-150x150.png"><title>Wiki.js Setup</title><link rel="apple-touch-icon" sizes="180x180" href="/_assets/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="192x192" href="/_assets/favicons/android-chrome-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/_assets/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_assets/favicons/favicon-16x16.png"><link rel="mask-icon" href="/_assets/favicons/safari-pinned-tab.svg" color="#1976d2"><link rel="manifest" href="/_assets/manifest.json"><script>var siteConfig = {"title":"Wiki.js"}
+</script><link type="text/css" rel="stylesheet" href="/_assets/css/setup.22871ffac1b643eed4d9.css"><script type="text/javascript" src="/_assets/js/runtime.js?1738531300"></script><script type="text/javascript" src="/_assets/js/setup.js?1738531300"></script></head><body><div id="root"><setup wiki-version="2.5.306"></setup></div></body></html>
+~~~
+#### C. Bonus
 ![alt text](https://media1.tenor.com/m/3wJqEkHwcdwAAAAd/oui-mais.gif)
