@@ -1,6 +1,6 @@
 provider "azurerm" {
   features {}
-  subscription_id = "5c029a8e-2178-45ca-b23c-9cda6a79d3f1"
+  subscription_id = "*"
 }
 resource "azurerm_resource_group" "main" {
   name     = "${var.prefix}-resources"
