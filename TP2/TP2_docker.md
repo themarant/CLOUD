@@ -6,7 +6,7 @@
 C:\Users\jerem>az vm create -g Léo -n PCPortableTP2 --image Ubuntu2204 --admin-username marant --ssh-key-values ~/.ssh/id_rsa.pub
 {
   "fqdns": "",
-  "id": "/subscriptions/5c029a8e-2178-45ca-b23c-9cda6a79d3f1/resourceGroups/Léo/providers/Microsoft.Compute/virtualMachines/PCPortableTP2",
+  "id": "/subscriptions/*/resourceGroups/Léo/providers/Microsoft.Compute/virtualMachines/PCPortableTP2",
   "location": "centralindia",
   "macAddress": "7C-1E-52-3C-AF-0C",
   "powerState": "VM running",
@@ -138,7 +138,7 @@ tp2magueule-resources  westeurope    Succeeded
 ~~~
 provider "azurerm" {
   features {}
-  subscription_id = "5c029a8e-2178-45ca-b23c-9cda6a79d3f1"
+  subscription_id = "*"
 }
 
 resource "azurerm_resource_group" "main" {
