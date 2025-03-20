@@ -281,6 +281,7 @@ The authenticity of host '10.0.2.5 (<no hostip for proxy command>)' can't be est
 
 azureuser@tp2maface-node2:~$
 ~~~
+![alt text](https://media.tenor.com/Tbai_BA2SrAAAAAM/he%27s-alive-frankenstein.gif)
 ### 4. cloud-iniiiiiiiiiiiiit
 #### A. Un premier tf + cloud-init
 - redirection fichier
