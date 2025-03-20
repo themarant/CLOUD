@@ -6,7 +6,7 @@ users:
     shell: /bin/bash
     groups: sudo, docker
     ssh_authorized_keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDKY+Ya30+lkLJzmshhDm9qCnvSrmuQjcZ8AgIP91fRPDe8VojxdEPIpSl8y52mntxfi7pVqWaYMPKzPKvuBH+dSZ8Wn+HYrG31Vy/1BcNN3XyNI+9rtZmJw8Dt0KIEhcDb13uOXTn1kEpaXoAY7OsI5cC+qIpsW1SxWtLS6Lwh/8kvmNX6f3blCVYMDHyFuIDZfBnef3ix4Cub41/nLqtWCu1pE124bPuAwffLfpRsR6Rud3KxfJQaGMTZnPDCmrPa5vp4CSn26JQEi0RHUj0mtzC+fXHbOcrKIuCzqNxA1Xs/I878FDbnupGpv/SEaTzli59xU0lno7z+vl1ji+uV7yvKnrFiYVO+1+/ZgCG75WCtV1ii5Ld6ZmYTjPIooFozowuyVnVxAft31DmpZ2axZeGTLYWOdoZJlJdJRXnjQri32Tnf0UiUWvgoZyc4CdUnfCHXO90jmAzNb6Yhn3QAJqLHbQR5CbBPcUDaW/biJUjDRPsMSU7RmgwcT6l6PyncZvKGDAHkhL9wzxIiq2sVvhk4/VF53xHvmbu5xJYlu8hdWVmdIl2zse+zhk05uJEkBdQmqE/f8rb2VUjfCOzob3lTlob0hf5sSkyTdsktLKIzuaC9lEaoVcUfP3NB98/gUHxHb+aYLfp3Ix7q8HLO8+tVr7fIo+Zn+ZBDr61r2w== jerem@Jeremy_VICTUS
+      - *
 
 apt:
   sources:
