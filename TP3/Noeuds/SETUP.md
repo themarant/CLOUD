@@ -43,6 +43,8 @@ Complete!
      Loaded: loaded (/usr/lib/systemd/system/libvirtd.service; enabled; preset: disabled)
      Active: active (running) since Fri 2025-03-21 16:36:21 CET; 11s ago
 ~~~
+![](https://media.tenor.com/HLWyRrmoKV0AAAAM/install-everything.gif)
+
 - installation `kvm2.one`
 🌞 Ajouter des dépôts supplémentaires
 ~~~
@@ -103,8 +105,6 @@ TriggeredBy: ● libvirtd.socket
 ~~~
 🌞 Handle SSH
 
-![](https://media.tenor.com/HLWyRrmoKV0AAAAM/install-everything.gif)
-
 - ssh-copy-id
 ~~~
 [oneadmin@frontend .ssh]$ ssh-copy-id oneadmin@10.3.1.11
@@ -123,3 +123,5 @@ Last login: Fri Mar 21 18:24:57 2025
 Last login: Fri Mar 21 18:24:34 2025
 [oneadmin@kvm2 ~]$
 ~~~
+
+![](https://media4.giphy.com/media/ydEVwjiyv29huphEno/giphy.webp?cid=790b76113n1xrm2y0mrbt3dweg9cgi85uzq1pzoepfc5z3xb&ep=v1_gifs_search&rid=giphy.webp&ct=g)
