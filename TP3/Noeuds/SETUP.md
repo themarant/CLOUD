@@ -103,7 +103,7 @@ TriggeredBy: ● libvirtd.socket
 ~~~
 🌞 Handle SSH
 
-![](https://media4.giphy.com/media/ydEVwjiyv29huphEno/giphy.webp?cid=790b76113n1xrm2y0mrbt3dweg9cgi85uzq1pzoepfc5z3xb&ep=v1_gifs_search&rid=giphy.webp&ct=g)
+![](https://media.tenor.com/HLWyRrmoKV0AAAAM/install-everything.gif)
 
 - ssh-copy-id
 ~~~
