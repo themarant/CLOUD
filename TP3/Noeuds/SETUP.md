@@ -102,6 +102,9 @@ TriggeredBy: ● libvirtd.socket
 22/tcp 8472/udp
 ~~~
 🌞 Handle SSH
+
+![](https://media4.giphy.com/media/ydEVwjiyv29huphEno/giphy.webp?cid=790b76113n1xrm2y0mrbt3dweg9cgi85uzq1pzoepfc5z3xb&ep=v1_gifs_search&rid=giphy.webp&ct=g)
+
 - ssh-copy-id
 ~~~
 [oneadmin@frontend .ssh]$ ssh-copy-id oneadmin@10.3.1.11
@@ -120,4 +123,3 @@ Last login: Fri Mar 21 18:24:57 2025
 Last login: Fri Mar 21 18:24:34 2025
 [oneadmin@kvm2 ~]$
 ~~~
-![](https://media4.giphy.com/media/ydEVwjiyv29huphEno/giphy.webp?cid=790b76113n1xrm2y0mrbt3dweg9cgi85uzq1pzoepfc5z3xb&ep=v1_gifs_search&rid=giphy.webp&ct=g)
