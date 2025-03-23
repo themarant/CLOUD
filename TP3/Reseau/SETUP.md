@@ -5,6 +5,7 @@
 ![](https://media.tenor.com/2XNnziYIiFEAAAAM/network-nft-build-your-network.gif)
 ## C. Préparer le bridge réseau
 🌞 Créer et configurer le bridge Linux
+- setup `kvm1`
 ~~~
 [root@kvm1 opt]# sudo systemctl status vxlan
 ● vxlan.service - Setup VXLAN interface for ONE
