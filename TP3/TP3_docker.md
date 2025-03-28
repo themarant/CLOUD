@@ -32,6 +32,18 @@ PING kvm2.one (10.3.1.12) 56(84) bytes of data.
 
 ![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3JlcnVobGFyMXRuYjFyMWN0YzZzcmdsbDh5NGpjYzdjNG92dzZsdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6MMHvVSIAzhAiP2IZ/200.webp)
 
+### 3. Réseau
 
+[Network setup](https://github.com/themarant/CLOUD/blob/main/TP3/Reseau/SETUP.md)
 
 ![](https://media1.tenor.com/m/NnpkTGoGoWgAAAAd/shocked-reading.gif)
+
+## III. Utiliser la plateforme
+## IV. Ajouter d'un noeud et VXLAN
+### 1. Ajout d'un noeud
+🌞 Setup de `kvm2.one`, à l'identique de `kvm1.one`
+
+se referer à 2. Neouds KVM pour l'ip statique
+
+se referer à 3. Réseau
+~~~
