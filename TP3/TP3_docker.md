@@ -76,3 +76,5 @@ PING 10.220.220.1 (10.220.220.1) 56(84) bytes of data.
 ### 4. Inspection du trafic
 
 [meo.pcap](https://github.com/themarant/CLOUD/blob/main/TP3/meo.pcap)
+
+![](https://tenor.com/fr/view/finished-im-so-done-wipe-hands-spongebob-gif-13963789363351788284)
