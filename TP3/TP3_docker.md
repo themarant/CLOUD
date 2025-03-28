@@ -46,4 +46,33 @@ PING kvm2.one (10.3.1.12) 56(84) bytes of data.
 se referer à 2. Neouds KVM pour l'ip statique
 
 se referer à 3. Réseau
+### 2. VM sur le deuxième noeud
 ~~~
+[oneadmin@frontend ~]$ ssh -J kvm2.one root@10.220.220.2
+The authenticity of host '10.220.220.2 (<no hostip for proxy command>)' can't be established.
+ED25519 key fingerprint is SHA256:1h3xhqpWsgqOBiWJcuOVoMiEBRdJfF5sy7K5Vb9EzRo.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.220.220.2' (ED25519) to the list of known hosts.
+[root@localhost ~]# 
+~~~
+### 3. Connectivité entre les VMs
+- depuis la vm sur `kvm1`
+~~~
+[root@localhost ~]# ping 10.220.220.2
+PING 10.220.220.2 (10.220.220.2) 56(84) bytes of data.
+64 bytes from 10.220.220.2: icmp_seq=1 ttl=64 time=8.92 ms
+64 bytes from 10.220.220.2: icmp_seq=2 ttl=64 time=4.45 ms
+64 bytes from 10.220.220.2: icmp_seq=3 ttl=64 time=1.70 ms
+~~~
+- depuis la vm sur `kvm2`
+~~~
+[root@localhost ~]# ping 10.220.220.1
+PING 10.220.220.1 (10.220.220.1) 56(84) bytes of data.
+64 bytes from 10.220.220.1: icmp_seq=1 ttl=64 time=1.97 ms
+64 bytes from 10.220.220.1: icmp_seq=2 ttl=64 time=3.73 ms
+64 bytes from 10.220.220.1: icmp_seq=3 ttl=64 time=4.17 ms
+~~~
+### 4. Inspection du trafic
+
+[meo.pcap](https://github.com/themarant/CLOUD/blob/main/TP3/meo.pcap)
